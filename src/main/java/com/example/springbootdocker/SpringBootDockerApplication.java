@@ -27,5 +27,4 @@ public class SpringBootDockerApplication {
     public String third() {
         return "Hello Docker World third file";
     }
-
 }
