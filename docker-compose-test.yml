@@ -1,3 +1,0 @@
-sut:
-  build: .
-  command: /spring-boot-docker
