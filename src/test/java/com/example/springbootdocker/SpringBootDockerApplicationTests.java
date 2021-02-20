@@ -41,12 +41,12 @@ class SpringBootDockerApplicationTests {
                 .andReturn();
     }
 
-    @Test
-    void four() throws Exception {
-        mockMvc.perform(MockMvcRequestBuilders.get("/four")
-                .accept(MediaType.APPLICATION_JSON))
-                .andExpect(status().isOk())
-                .andReturn();
-    }
+//    @Test
+//    void four() throws Exception {
+//        mockMvc.perform(MockMvcRequestBuilders.get("/four")
+//                .accept(MediaType.APPLICATION_JSON))
+//                .andExpect(status().isOk())
+//                .andReturn();
+//    }
 
 }

@@ -28,8 +28,8 @@ public class SpringBootDockerApplication {
         return "Hello Docker World third file";
     }
 
-    @GetMapping("/four")
-    public String four() {
-        return "Hello Docker World four file";
-    }
+//    @GetMapping("/four")
+//    public String four() {
+//        return "Hello Docker World four file";
+//    }
 }
